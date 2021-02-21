@@ -1,0 +1,93 @@
+{
+    "blockDrops": [
+        {
+            "drops": [
+                {
+                    "type": "slime_ball",
+                    "rarity": 24
+                }
+            ],
+            "blocks": [
+                {
+                    "block": "grass_block"
+                },
+                {
+                    "block": "dark_oak_leaves"
+                },
+                {
+                    "block": "grass"
+                },
+                {
+                    "block": "tall_grass"
+                }
+            ]
+        }
+    ],
+    "structures": [
+        {
+            "tileset": "murky-stronghold",
+            "height": 26,
+            "rarity": 5,
+            "ratio": 0.9,
+            "zoom": 0.5
+        },
+        {
+            "tileset": "ruins",
+            "rarity": 20,
+            "shuffle": 22,
+            "ratio": 0.9,
+            "zoom": 0.5
+        }
+    ],
+    "jigsawStructures": [
+        {
+            "rarity": 500,
+            "structure": "village-tundra"
+        }
+    ],
+    "landBiomes": [
+        "swamp-roofed-forest",
+        "swamp-mountain-forest",
+        "swamp-willow-forest",
+        "swamp-roofed-wayward",
+        "swamp-marsh"
+    ],
+    "biomeImplosionRatio": 0.26,
+    "seaBiomes": [
+        "swamp-ocean"
+    ],
+    "deposits": [
+        {
+            "minHeight": 35,
+            "maxPerChunk": 3,
+            "maxHeight": 70,
+            "minPerChunk": 1,
+            "minSize": 4,
+            "maxSize": 9,
+            "palette": [
+                {
+                    "block": "coal_ore"
+                }
+            ],
+            "varience": 4
+        }
+    ],
+    "caveBiomes": [
+        "swamp-murky-cavern"
+    ],
+    "landBiomeZoom": 1.25,
+    "shoreHeightMin": 1.2,
+    "shoreBiomes": [
+        "swamp-beach"
+    ],
+    "name": "Swamp",
+    "shoreHeightMax": 2.2,
+    "loot": {
+        "tables": [
+            "swamp-food",
+            "swamp-clutter"
+        ]
+    },
+    "shoreHeightZoom": 1.14,
+    "rarity": 5
+}

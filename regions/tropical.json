@@ -1,0 +1,88 @@
+{
+    "spotBiomes": [
+        {
+            "as": "SEA",
+            "biome": "tropical-submerged-volcanic",
+            "scale": 10,
+            "type": "SEA",
+            "shuffle": 1,
+            "rarity": 286
+        },
+        {
+            "as": "LAND",
+            "biome": "tropical-rainforest-island",
+            "scale": 2.65,
+            "type": "SEA",
+            "rarity": 139
+        }
+    ],
+    "jigsawStructures": [
+        {
+            "rarity": 500,
+            "structure": "village-temperate"
+        }
+    ],
+    "landBiomes": [
+        "tropical-rainforest",
+        "tropical-bamboo-forest",
+        "tropical-island-beach",
+        "tropical-rainforest-wicked"
+    ],
+    "biomeImplosionRatio": 0.25,
+    "seaBiomes": [
+        "tropical-ocean"
+    ],
+    "structures": [
+        {
+            "tileset": "murky-stronghold",
+            "height": 26,
+            "rarity": 10,
+            "ratio": 0.9,
+            "zoom": 0.5
+        },
+        {
+            "tileset": "ruins",
+            "rarity": 23,
+            "shuffle": 22,
+            "ratio": 0.9,
+            "zoom": 0.5
+        }
+    ],
+    "deposits": [
+        {
+            "minHeight": 25,
+            "maxPerChunk": 1,
+            "maxHeight": 40,
+            "minPerChunk": 0,
+            "minSize": 1,
+            "maxSize": 2,
+            "palette": [
+                {
+                    "block": "emerald_ore"
+                }
+            ],
+            "varience": 2
+        }
+    ],
+    "caveBiomes": [
+        "tropical-cavern",
+        "tropical-cavern-coral",
+        "tropical-cavern-root"
+    ],
+    "landBiomeZoom": 1.25,
+    "shoreHeightMin": 3.2,
+    "shoreBiomes": [
+        "tropical-beach",
+        "tropical-beach-bamboo",
+        "tropical-beach-charred"
+    ],
+    "name": "Tropical",
+    "shoreHeightMax": 9.2,
+    "loot": {
+        "tables": [
+            "tropical-food",
+            "tropical-treasure"
+        ]
+    },
+    "shoreHeightZoom": 2.14
+}

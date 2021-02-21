@@ -1,0 +1,103 @@
+{
+    "riverBiomes": [
+        "frozen-river"
+    ],
+    "structures": [
+        {
+            "tileset": "soul-temple",
+            "height": 26,
+            "rarity": 3,
+            "ratio": 0.9,
+            "zoom": 1
+        }
+    ],
+    "spotBiomes": [
+        {
+            "biome": "frozen-ocean",
+            "scale": 5,
+            "type": "SEA",
+            "shuffle": 328,
+            "rarity": 36
+        },
+        {
+            "biome": "frozen-vander",
+            "scale": 5,
+            "type": "LAND",
+            "shuffle": 328,
+            "rarity": 10
+        }
+    ],
+    "landBiomes": [
+        "frozen-plains",
+        "frozen-pines",
+        "frozen-mountains",
+        "frozen-mountains-cliffs",
+        "frozen-redwoods-forest"
+    ],
+    "biomeImplosionRatio": 0.25,
+    "seaBiomes": [
+        "frozen-ocean"
+    ],
+    "deposits": [
+        {
+            "minHeight": 8,
+            "maxPerChunk": 12,
+            "maxHeight": 57,
+            "minPerChunk": 7,
+            "minSize": 12,
+            "maxSize": 22,
+            "palette": [
+                {
+                    "block": "blackstone"
+                }
+            ],
+            "varience": 4
+        }
+    ],
+    "riverRarity": 1,
+    "caveBiomes": [
+        "frozen-ice-cavern"
+    ],
+    "landBiomeZoom": 1.25,
+    "effects": [
+        {
+            "sound": "AMBIENT_CAVE",
+            "chance": 6,
+            "minPitch": 0.1,
+            "maxPitch": 0.5,
+            "interval": 10000
+        },
+        {
+            "chance": 5,
+            "interval": 200,
+            "particleEffect": "SNOW_SHOVEL",
+            "particleCount": 7,
+            "particleOffset": 0
+        },
+        {
+            "potionTicksMin": 75,
+            "potionEffect": "SLOW_DIGGING",
+            "chance": 38,
+            "potionStrength": 0,
+            "interval": 1000,
+            "potionTicksMax": 310
+        }
+    ],
+    "shoreHeightMin": 2.2,
+    "shoreBiomes": [
+        "frozen-beach"
+    ],
+    "name": "Frozen",
+    "shoreHeightMax": 4.2,
+    "loot": {
+        "tables": [
+            "frozen-food",
+            "snow-clutter",
+            "cold-treasure",
+            "frozen-clutter"
+        ]
+    },
+    "shoreHeightZoom": 1.14,
+    "riverThickness": 0.006,
+    "rarity": 2
+}
